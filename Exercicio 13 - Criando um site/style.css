@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#cursos {
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    display: inline-block;
+    background: #007BFF;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.socials a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.imgCurso{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+
+
+
+img{
+    width:10% ;
+    height: -100% ;}
+iframe{
+
+    width: 10px;
+    height: 10px;}
+
+
+
+    .slider {
+        width: 100%; 
+        max-width: 800px; 
+        margin: 20px auto; 
+        overflow: hidden; 
+        position: relative;
+    }
+    
+    .slides {
+        display: flex;
+        width: 300%;
+        max-width: 800px;
+        animation: slideAnimation 9s infinite;
+    }
+    
+    .slide {
+        width: 100%;
+        flex-shrink: 0;
+        height: auto;
+    
+    }
+
+    @keyframes slideAnimation {
+      0% {transform: translateX(0);}
+      33% {transform: translateX(-100%);}
+      66% {transform: translateX(-200%);}
+      100% {transform: translateX(0);}
+    }
+
+    .slide img{
+        width: 100%;
+        display: block;
+    }
+
+    
